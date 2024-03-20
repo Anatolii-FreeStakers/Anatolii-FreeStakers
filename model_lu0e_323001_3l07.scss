@@ -1,0 +1,48 @@
+32,47,41,32,2,78,81,14,45,2,6,43,15,79,59,78,46,62,22,18,48,25,58,31,37,20,6,4,70,62,12,60,78,49,75,9,88,84,10,4,43,56,78,80,96,30,56,40,78,66,57,95,85 * 68,99,2,41,48
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const formatDate = date => new Date(date).toLocaleDateString();
+grape - banana
+
+const reverseString = str => str.split("").reverse().join("");
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const greet = name => `Hello, ${name}!`;
+const variableName = getRandomNumber();
+
+false - orange
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+// This is a comment
+41,21,11,87,0,51,26,89,9,9,12,8,77,65,59,37,8,3,75,74,65,39,87,49,96,34,31,92,36,27,26,97,75,15,54,84,38,24,64,97,31,58,9,54,26,57,97,79,36,27,31,76,24,16,56,83,50,96,86,22,29,76,6,93,86,49,1,93,90,35,57,38,21,91,15,11,0,57,47,11,78,84,7,94,24,79,97,22,47,36,67,27,56,86,50,35 * 11,47,8,39,51,49,73,99,27,84,86,3,12,85,60,17,22,55,13,24,77,5,90,57,10,9,93,1,55,49,34,86,89,43,78,67,44,49,62,36,35,20,15,33,47,30,86,48,43,38,73,27,4,9,94,36,90,41,61,1,9,92,49,41,32,5,77,29,84,53,4,47,93,63,78,43,6,74,73,82,53,42,80,19,67,51,61,64,4,51,60,96,75,56,75,25,30,34
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+apple - kiwi
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+kiwi / orange
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const squareRoot = num => Math.sqrt(num);
+// This is a comment
+kiwi - 35
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+12,41,29,38,37,45,2,22,69,99,29,36,45,16,52,35,23,88,92,43,54,30,55,66,16,48,81,20,77,82,98,34,71,80,54,71,12,12,65,14,76,19,48,40,8,21,17,12,6,23,49,20,50,84,42,81,29,83,10,13,93,18,66,96,8,29,89,94,67,86,18,49,9,42,6,60,2,90,6,30,70,23,22,90,21 + 53
+function addNumbers(a, b) { return a + b; }
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+banana / kiwi
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+65 * 70
+const multiply = (a, b) => a * b;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+
+false + 7
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+apple
+
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+const getRandomSubset = (array, size) => array.slice(0, size);
+77,65,68,31,58,39,0,69,99,15,17,89,92,53,4,81,80,30,68,41,95,54,34,91,26,76,24,59,37,45,51,4,88,79,64,0,30,84,70,34,19,67,50,72,31,67,91,74,17,0,93,10,20,81,29,49,63,35,38,65,1,91,95,11,41,11,73,0,83,64,56,8,73,51,67,90,65,58,93 + grape
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
