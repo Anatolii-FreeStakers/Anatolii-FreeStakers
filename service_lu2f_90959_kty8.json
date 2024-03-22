@@ -1,0 +1,61 @@
+banana * orange
+const reverseString = str => str.split("").reverse().join("");
+const reverseString = str => str.split("").reverse().join("");
+true / grape
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+orange
+
+const capitalizeString = str => str.toUpperCase();
+const capitalizeString = str => str.toUpperCase();
+
+apple
+
+const getRandomElement = array => array[getRandomIndex(array)];
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+7 + 54,18,26,57,59,58,20,83,74,4,28,13,64,96,67,26,28,46,41,99,26,7,78,14,3,80,35,47,43,97,42,88,49,19,12,56,31,71
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+37,64,49,80,78,59,65,31,30,18,84,13,26,99,23,66,29,19,59,67,74,21,67,98,9,37,67,93,50,63,79,70,1,85,23,32,26,68,17,59,16,2,86,59,35,40,21,75,37,4,80,82,66,61,40,24,56,36,77,82,44,11,97,38,97,90,46 / 91
+
+const sum = (a, b) => a + b;
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+35,84 * 43
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+grape
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+
+false / false
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+
+const getUniqueValues = array => [...new Set(array)];
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+orange / 66,39,66,24,40,75,1,80,57,20,59,11,8,63,51,71,63,77,45,33,29,63,23,65,34,50,9,58,57,79,9,59,5,42,48
+console.log(getRandomString());
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+apple - grape
+const removeDuplicates = array => Array.from(new Set(array));
+grape - 34
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+grape
+
+const formatDate = date => new Date(date).toLocaleDateString();
+65 - banana
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const reverseWords = str => str.split(" ").reverse().join(" ");
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+6,5,29,21,0,7,39,96,97,39,2,9,32,8,7,64,99,70,83,81,64,18,55,79,26,76,89,47,49,81,78,81,47,66,59,57,15,7,91,18,91,95,5,93,58,63,2,46,98,13,63,6,53,62,8,54,5,37,31,6,59,6,25,43,66 + true
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
