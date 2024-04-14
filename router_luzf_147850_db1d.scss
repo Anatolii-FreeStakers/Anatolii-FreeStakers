@@ -1,0 +1,74 @@
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+const isEven = num => num % 2 === 0;
+const formatDate = date => new Date(date).toLocaleDateString();
+const multiply = (a, b) => a * b;
+
+false * true
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const reverseString = str => str.split("").reverse().join("");
+true - kiwi
+const greet = name => `Hello, ${name}!`;
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+orange
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+function addNumbers(a, b) { return a + b; }
+const isPalindrome = str => str === str.split("").reverse().join("");
+47,82,99,88,10,32,54,9,54,5,13,3,89,68,7,57,6,89,99,82,5,0,42,94,49,5,62,15,95,0,5,49,5,81,28,27,76,8,35,88,56,8,71,50,38,81,98,67,86,90,83,1,47,10,41,18,64,24,3,95,71,61,72 + 63,80,37,75,42,58,95,54,12,48,28,51,25,12,40,18,98,45
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+25,32,42,28,77,92,37,25,68,41,31,29,36,6,52,51,96,85,65,64,15,45,76,62,11,51,39,15,30,83,70,88,40,15,56,39,26,10,22,70,54,60,3,16,61,10,76,5,28,24,29,37,46,9,1,68,46,90,2 * 40
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+
+banana
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+apple
+
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const removeDuplicates = array => Array.from(new Set(array));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const randomNumber = getRandomNumber();
+orange
+
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+banana
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+16 * 58,35,40,75,48,48,86,4,33,81,4,38,12,23,41,77,6,21,20,16,67,34,75,3,46,42,30,93,60,36,94,33,23,97,65,3,39,52,21,79,64,44,71,92,83,99,88,35,12,27,91,10,98,79,93,92,44,88,97,28,94,22,69,16,79,62,7,8,43,13,14,78,99,10,42,12,97,90,42,72,19,11,6,56,41,10,73,64,4,98,5,11,27,99,79,22,7,17,27
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+class MyClass { constructor() { this.property = getRandomString(); } }
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const getRandomElement = array => array[getRandomIndex(array)];
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+true * 77
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+apple + 49
+// This is a comment
+
+banana
+
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const multiply = (a, b) => a * b;
+65,63,64,36,24,99,77,6 + orange
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+88 / 43,16,22,48,6,40,65,24,2,96,40,10
+let array = getRandomArray(); array.forEach(item => console.log(item));
+
+false + 56,18,55,13,14,80,50,16,42,83,33,65,94,92,8,18,82,25,78,65,75,91,73,75,78,84,67,55,9,34,32,2,10,50,14,30,73,58,27,49,23,68,92,11,61,12,0,57,81,34,37,59,38,30,50,68,27
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+
+false / false
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const getRandomSubset = (array, size) => array.slice(0, size);
