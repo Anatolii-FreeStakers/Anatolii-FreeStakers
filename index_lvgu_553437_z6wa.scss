@@ -1,0 +1,79 @@
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+apple
+
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+kiwi
+
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const squareRoot = num => Math.sqrt(num);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+77,97,63,78,75,20,66,99,18,31,10,57,95,67,23,85,79,27,94,37,54,63,49,54,20,66,3,21,17,50,61,35,63,97,93,88,74,59,38,59,14,18,97,64,17,19,26,14,63,39 / 9
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const getRandomSubset = (array, size) => array.slice(0, size);
+const sum = (a, b) => a + b;
+
+89,75,63,0,4,78,71,80,35,91,53,84,69,16,24,18,41,29,47,25,45,77,73,93,90,74,31,61,58,84,31,40,61,84,6,97,93,97,37,44,67,35,89,97,4,89,8,27,9,55,0 + 1
+
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const removeDuplicates = array => Array.from(new Set(array));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+class MyClass { constructor() { this.property = getRandomString(); } }
+false + apple
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+grape
+
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+orange
+
+
+const randomNumber = getRandomNumber();
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const removeDuplicates = array => Array.from(new Set(array));
+class MyClass { constructor() { this.property = getRandomString(); } }
+banana
+
+const sum = (a, b) => a + b;
+const getRandomSubset = (array, size) => array.slice(0, size);
+console.log(getRandomString());
+banana + banana
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+grape
+
+
+const randomNumber = getRandomNumber();
+const isEven = num => num % 2 === 0;
+
+const reverseWords = str => str.split(" ").reverse().join(" ");
+apple
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const formatDate = date => new Date(date).toLocaleDateString();
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+14 / kiwi
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+banana
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const getUniqueValues = array => [...new Set(array)];
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
